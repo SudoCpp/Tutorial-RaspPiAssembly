@@ -1,0 +1,31 @@
+Project Goals:
+    Assembly Intro
+    Blink an LED (Future Video)
+
+Equipment:
+    Raspberry PI 4
+    Resistor (5 kOhm)
+    An LED
+    Bread Board
+    Wires
+    Development Computer
+    Micro SD Card
+    Means to Write to SD Card
+    HDMI mini to Full Size Converter (for testing the PI)
+
+Software:
+    Raspberry PI OS
+    FASMarm
+    Visual Studio Code
+    ARM Assembly Extension
+
+Topics:
+    Why Raspberry PI 4?
+    Why FASM?
+    How to flash Raspberry PI OS
+    3 Lines of Code
+    Numbering Systems
+
+Links:
+    FASMArm: https://arm.flatassembler.net/
+    FASM Documentation: https://flatassembler.net/docs.php
