@@ -1,12 +1,31 @@
-; ==============================================================================================
-;                                      Blinking An LED
-; ----------------------------------------------------------------------------------------------
-; Designed for: Raspberry Pi 4 B
-; Processor: ARM Cortex-A72
-; ARM Instructions [Doc1]: https://developer.arm.com/documentation/dui0801/l?lang=en
-; Technical Ref Manual [Doc2]: https://developer.arm.com/documentation/100095/latest/
-; Peripherals Manual [Doc3]: https://datasheets.raspberrypi.com/bcm2711/bcm2711-peripherals.pdf
-; ----------------------------------------------------------------------------------------------
+; Copyright 2025 SudoCPP
+
+; Permission is hereby granted, free of charge, to any person obtaining a copy
+; of this software and associated documentation files (the “Software”), to deal
+; in the Software without restriction, including without limitation the rights
+; to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+; of the Software, and to permit persons to whom the Software is furnished to do;
+; so, subject to the following conditions:
+
+; The above copyright notice and this permission notice shall be included in all
+; copies or substantial portions of the Software.
+
+; THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+; INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+; PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+; HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+; OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+; SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+; ================================================================================================= ;
+;                                      GPIO Interface                                               ;
+; ------------------------------------------------------------------------------------------------- ;
+; Designed for: Raspberry Pi 4 B                                                                    ;
+; Processor: ARM Cortex-A72                                                                         ;
+; ARM Instructions [Doc1]: https://developer.arm.com/documentation/dui0801/l?lang=en                ;
+; Technical Ref Manual [Doc2]: https://developer.arm.com/documentation/100095/latest/               ;
+; Peripherals Manual [Doc3]: https://datasheets.raspberrypi.com/bcm2711/bcm2711-peripherals.pdf     ;
+; ------------------------------------------------------------------------------------------------- ;
 
 GPIO_BASE = 0xFE200000  ; We are using 0xFE000000 because of [Doc3] Page 6
                         ; Offset 0x200000 comes from [Doc3] Page 66
